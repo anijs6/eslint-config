@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers:
+      '@anijs/prettier': ^1.0.2
+    devDependencies:
+      '@anijs/prettier': 1.0.2
+
+packages:
+
+  /@anijs/prettier/1.0.2:
+    resolution: {integrity: sha512-Dvp9IAh/yKUxGdA0LS8U0e7d3PDgmEsMdWuWYHiejeMQ4e+6lMPg99flXK7njEpKn3x7WpmBL584a0t5R7uZ+g==}
+    dev: true
