@@ -4,11 +4,15 @@ module.exports = {
     browser: true,
     node: true
   },
-  extends: ['plugin:jsdoc/recommended'],
-  plugins: ['jsdoc', 'html'],
+  extends: [
+    'plugin:jsdoc/recommended',
+    'airbng-base',
+    'plugin:unicorn/recommended'
+  ],
+  plugins: ['jsdoc', 'html', 'unicorn', 'prettier'],
   settings: {
-    'html/indent': '+2',
     'html/report-bad-indent': 'error',
+    'html/indent': '+2',
     'html/html-extensions': [
       '.html',
       '.ejs',
@@ -17,5 +21,16 @@ module.exports = {
       '.handlebars',
       '.pug'
     ]
+  },
+  overrides: [
+    {
+      files: ['**/*.js'],
+      rules: {
+        'unicorn/prefer-module': 'off'
+      }
+    }
+  ],
+  rules: {
+    'prettier/prettier': 'error'
   }
 }
