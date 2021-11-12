@@ -6,8 +6,11 @@ module.exports = {
   },
   extends: [
     'plugin:jsdoc/recommended',
-    'airbng-base',
-    'plugin:unicorn/recommended'
+    'airbnb-base',
+    'plugin:jsonc/recommended-with-jsonc',
+    'plugin:yml/standard',
+    'plugin:unicorn/recommended',
+    'prettier'
   ],
   plugins: ['jsdoc', 'html', 'unicorn', 'prettier'],
   settings: {
@@ -27,6 +30,61 @@ module.exports = {
       files: ['**/*.js'],
       rules: {
         'unicorn/prefer-module': 'off'
+      }
+    },
+    {
+      files: ['*.json', '*.json5'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        quotes: ['error', 'double'],
+        'quote-props': ['error', 'always'],
+        'comma-dangle': ['error', 'never']
+      }
+    },
+    {
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser'
+    },
+    {
+      files: ['package.json'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'jsonc/sort-keys': [
+          'error',
+          {
+            pathPattern: '^$',
+            order: [
+              'name',
+              'version',
+              'description',
+              'keywords',
+              'license',
+              'repository',
+              'funding',
+              'author',
+              'type',
+              'files',
+              'exports',
+              'main',
+              'module',
+              'unpkg',
+              'bin',
+              'scripts',
+              'husky',
+              'lint-staged',
+              'peerDependencies',
+              'peerDependenciesMeta',
+              'dependencies',
+              'devDependencies',
+              'eslintConfig'
+            ]
+          },
+          {
+            pathPattern:
+              '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
+            order: { type: 'asc' }
+          }
+        ]
       }
     }
   ],

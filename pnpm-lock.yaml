@@ -18,19 +18,29 @@ importers:
     specifiers:
       eslint: ^8.2.0
       eslint-config-airbnb-base: ^15.0.0
+      eslint-config-prettier: ^8.3.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.3
       eslint-plugin-jsdoc: ^37.0.3
+      eslint-plugin-jsonc: ^2.0.0
       eslint-plugin-prettier: ^4.0.0
       eslint-plugin-unicorn: ^38.0.1
+      eslint-plugin-yml: ^0.11.0
+      jsonc-eslint-parser: ^2.0.2
       prettier: ^2.4.1
+      yaml-eslint-parser: ^0.5.0
     dependencies:
       eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/15.0.0_6e04a54c7bcd7530b1a4c2da0aa486b1
+      eslint-config-prettier: registry.nlark.com/eslint-config-prettier/8.3.0_eslint@8.2.0
       eslint-plugin-html: registry.npmmirror.com/eslint-plugin-html/6.2.0
       eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.25.3_eslint@8.2.0
       eslint-plugin-jsdoc: registry.npmmirror.com/eslint-plugin-jsdoc/37.0.3_eslint@8.2.0
-      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.0.0_eslint@8.2.0+prettier@2.4.1
+      eslint-plugin-jsonc: registry.npmmirror.com/eslint-plugin-jsonc/2.0.0_eslint@8.2.0
+      eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.0.0_307f015733298e29da9050ea0cee5b9e
       eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn/38.0.1_eslint@8.2.0
+      eslint-plugin-yml: registry.npmmirror.com/eslint-plugin-yml/0.11.0_eslint@8.2.0
+      jsonc-eslint-parser: registry.npmmirror.com/jsonc-eslint-parser/2.0.2_eslint@8.2.0
+      yaml-eslint-parser: registry.npmmirror.com/yaml-eslint-parser/0.5.0
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.2.0
       prettier: registry.nlark.com/prettier/2.4.1
@@ -163,7 +173,7 @@ packages:
     dev: true
 
   /lodash/4.17.21:
-    resolution: {integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=, tarball: lodash/download/lodash-4.17.21.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.21.tgz}
+    resolution: {integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=, tarball: lodash/download/lodash-4.17.21.tgz}
     dev: false
 
   /min-indent/1.0.1:
@@ -177,7 +187,6 @@ packages:
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=, tarball: natural-compare/download/natural-compare-1.4.0.tgz}
-    dev: true
 
   /object-keys/1.1.1:
     resolution: {integrity: sha1-HEfyct8nfzsdrwYWd9nILiMixg4=, tarball: object-keys/download/object-keys-1.1.1.tgz}
@@ -316,15 +325,13 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: registry.nlark.com/acorn/8.5.0
-    dev: true
 
   registry.nlark.com/acorn/8.5.0:
-    resolution: {integrity: sha1-RRLMuZs2mMdSWR6btEcuOK1DzuI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/acorn/download/acorn-8.5.0.tgz?cache=0&sync_timestamp=1630918671163&other_urls=https%3A%2F%2Fregistry.nlark.com%2Facorn%2Fdownload%2Facorn-8.5.0.tgz}
+    resolution: {integrity: sha1-RRLMuZs2mMdSWR6btEcuOK1DzuI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/acorn/download/acorn-8.5.0.tgz}
     name: acorn
     version: 8.5.0
     engines: {node: '>=0.4.0'}
     hasBin: true
-    dev: true
 
   registry.nlark.com/ansi-regex/5.0.1:
     resolution: {integrity: sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/ansi-regex/download/ansi-regex-5.0.1.tgz?cache=0&sync_timestamp=1631674214873&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fansi-regex%2Fdownload%2Fansi-regex-5.0.1.tgz}
@@ -562,6 +569,18 @@ packages:
     name: escalade
     version: 3.1.1
     engines: {node: '>=6'}
+    dev: false
+
+  registry.nlark.com/eslint-config-prettier/8.3.0_eslint@8.2.0:
+    resolution: {integrity: sha1-90cbILb+ipqSVMxoRFQgKIai3Xo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/eslint-config-prettier/download/eslint-config-prettier-8.3.0.tgz}
+    id: registry.nlark.com/eslint-config-prettier/8.3.0
+    name: eslint-config-prettier
+    version: 8.3.0
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: registry.npmmirror.com/eslint/8.2.0
     dev: false
 
   registry.nlark.com/eslint-import-resolver-node/0.3.6:
@@ -928,6 +947,12 @@ packages:
     dependencies:
       brace-expansion: registry.nlark.com/brace-expansion/1.1.11
 
+  registry.nlark.com/natural-compare/1.4.0:
+    resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/natural-compare/download/natural-compare-1.4.0.tgz}
+    name: natural-compare
+    version: 1.4.0
+    dev: false
+
   registry.nlark.com/normalize-package-data/2.5.0:
     resolution: {integrity: sha1-5m2xg4sgDB38IzIl0SyzZSDiNKg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/normalize-package-data/download/normalize-package-data-2.5.0.tgz}
     name: normalize-package-data
@@ -1280,6 +1305,13 @@ packages:
     resolution: {integrity: sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/yallist/download/yallist-4.0.0.tgz}
     name: yallist
     version: 4.0.0
+
+  registry.nlark.com/yaml/1.10.2:
+    resolution: {integrity: sha1-IwHF/78StGfejaIzOkWeKeeSDks=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/yaml/download/yaml-1.10.2.tgz}
+    name: yaml
+    version: 1.10.2
+    engines: {node: '>= 6'}
+    dev: false
 
   registry.npmmirror.com/@babel/code-frame/7.16.0:
     resolution: {integrity: sha1-DfyAMJvuyEEeZecGRhxAiwu5tDE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.16.0.tgz}
@@ -1824,7 +1856,22 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/eslint-plugin-prettier/4.0.0_eslint@8.2.0+prettier@2.4.1:
+  registry.npmmirror.com/eslint-plugin-jsonc/2.0.0_eslint@8.2.0:
+    resolution: {integrity: sha1-Tj932mAk5jYYcnQAthqiqdOq6e4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-jsonc/download/eslint-plugin-jsonc-2.0.0.tgz}
+    id: registry.npmmirror.com/eslint-plugin-jsonc/2.0.0
+    name: eslint-plugin-jsonc
+    version: 2.0.0
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      eslint: registry.npmmirror.com/eslint/8.2.0
+      eslint-utils: registry.nlark.com/eslint-utils/3.0.0_eslint@8.2.0
+      jsonc-eslint-parser: registry.npmmirror.com/jsonc-eslint-parser/2.0.2_eslint@8.2.0
+      natural-compare: registry.nlark.com/natural-compare/1.4.0
+    dev: false
+
+  registry.npmmirror.com/eslint-plugin-prettier/4.0.0_307f015733298e29da9050ea0cee5b9e:
     resolution: {integrity: sha1-i5nR5LiySnYkcrRWeZICNhnLmOA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-prettier/download/eslint-plugin-prettier-4.0.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-prettier/4.0.0
     name: eslint-plugin-prettier
@@ -1839,6 +1886,7 @@ packages:
         optional: true
     dependencies:
       eslint: registry.npmmirror.com/eslint/8.2.0
+      eslint-config-prettier: registry.nlark.com/eslint-config-prettier/8.3.0_eslint@8.2.0
       prettier: registry.nlark.com/prettier/2.4.1
       prettier-linter-helpers: registry.nlark.com/prettier-linter-helpers/1.0.0
     dev: false
@@ -1872,6 +1920,24 @@ packages:
       - supports-color
     dev: false
 
+  registry.npmmirror.com/eslint-plugin-yml/0.11.0_eslint@8.2.0:
+    resolution: {integrity: sha1-5ocER7/g3MDrq2oHZ0KjcJ9jJPQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-yml/download/eslint-plugin-yml-0.11.0.tgz}
+    id: registry.npmmirror.com/eslint-plugin-yml/0.11.0
+    name: eslint-plugin-yml
+    version: 0.11.0
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      debug: registry.npmmirror.com/debug/4.3.2
+      eslint: registry.npmmirror.com/eslint/8.2.0
+      lodash: 4.17.21
+      natural-compare: 1.4.0
+      yaml-eslint-parser: registry.npmmirror.com/yaml-eslint-parser/0.5.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   registry.npmmirror.com/eslint-template-visitor/2.3.2_eslint@8.2.0:
     resolution: {integrity: sha1-tS+W/zEedzo0XXkFPMx4J1u8Rj0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-template-visitor/download/eslint-template-visitor-2.3.2.tgz}
     id: registry.npmmirror.com/eslint-template-visitor/2.3.2
@@ -1901,7 +1967,6 @@ packages:
     name: eslint-visitor-keys
     version: 3.1.0
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
 
   registry.npmmirror.com/eslint/8.2.0:
     resolution: {integrity: sha1-RNP7UG0PhmpQbZeg/A6Q7m0GqBU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint/download/eslint-8.2.0.tgz}
@@ -1951,6 +2016,17 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  registry.npmmirror.com/espree/9.0.0:
+    resolution: {integrity: sha1-6QopZWmCKFAudxx6WEibGp0QcJA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/espree/download/espree-9.0.0.tgz}
+    name: espree
+    version: 9.0.0
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      acorn: registry.nlark.com/acorn/8.5.0
+      acorn-jsx: registry.nlark.com/acorn-jsx/5.3.2_acorn@8.5.0
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.1.0
+    dev: false
 
   registry.npmmirror.com/estraverse/4.3.0:
     resolution: {integrity: sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/estraverse/download/estraverse-4.3.0.tgz}
@@ -2096,6 +2172,22 @@ packages:
     name: jsdoc-type-pratt-parser
     version: 2.0.0
     engines: {node: '>=12.0.0'}
+    dev: false
+
+  registry.npmmirror.com/jsonc-eslint-parser/2.0.2_eslint@8.2.0:
+    resolution: {integrity: sha1-EnRbQyuxsDeFV9I3aXoMwOlu4IQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsonc-eslint-parser/download/jsonc-eslint-parser-2.0.2.tgz}
+    id: registry.npmmirror.com/jsonc-eslint-parser/2.0.2
+    name: jsonc-eslint-parser
+    version: 2.0.2
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      acorn: registry.nlark.com/acorn/8.5.0
+      eslint-utils: registry.nlark.com/eslint-utils/3.0.0_eslint@8.2.0
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.1.0
+      espree: registry.npmmirror.com/espree/9.0.0
+      semver: 7.3.5
+    transitivePeerDependencies:
+      - eslint
     dev: false
 
   registry.npmmirror.com/ms/2.0.0:
@@ -2253,4 +2345,15 @@ packages:
     name: type-fest
     version: 0.8.1
     engines: {node: '>=8'}
+    dev: false
+
+  registry.npmmirror.com/yaml-eslint-parser/0.5.0:
+    resolution: {integrity: sha1-AdTk2ZKoIHaeqF71/VJt/CDrxvU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yaml-eslint-parser/download/yaml-eslint-parser-0.5.0.tgz}
+    name: yaml-eslint-parser
+    version: 0.5.0
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.1.0
+      lodash: 4.17.21
+      yaml: registry.nlark.com/yaml/1.10.2
     dev: false
