@@ -4,9 +4,11 @@ importers:
 
   .:
     specifiers:
+      '@anijs/eslint-config-common': workspace:*
       '@anijs/prettier': ^1.0.2
       eslint: ^8.2.0
     devDependencies:
+      '@anijs/eslint-config-common': link:packages/common
       '@anijs/prettier': 1.0.2
       eslint: registry.npmmirror.com/eslint/8.2.0
 
