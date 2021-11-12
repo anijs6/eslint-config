@@ -9,6 +9,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@anijs/prettier": "^1.0.2"
+    "@anijs/prettier": "^1.0.2",
+    "eslint": "^8.2.0"
   }
 }
