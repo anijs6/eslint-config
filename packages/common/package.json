@@ -7,7 +7,8 @@
   "author": "崔海峰",
   "main": "index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,5 +33,6 @@
   "devDependencies": {
     "eslint": "^8.2.0",
     "prettier": "^2.4.1"
-  }
+  },
+  "gitHead": "99f4833d7b5aa88830c0b191f66f64af3f35c6df"
 }
