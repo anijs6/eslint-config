@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       '@anijs/eslint-config-common': workspace:*
-      '@anijs/prettier': ^1.0.2
+      '@anijs/prettier': ^1.0.3
       eslint: ^8.2.0
       prettier: ^2.4.1
     devDependencies:
       '@anijs/eslint-config-common': link:packages/common
-      '@anijs/prettier': 1.0.2
+      '@anijs/prettier': registry.npmmirror.com/@anijs/prettier/1.0.3
       eslint: registry.npmmirror.com/eslint/8.2.0
       prettier: registry.nlark.com/prettier/2.4.1
 
@@ -46,10 +46,6 @@ importers:
       prettier: registry.nlark.com/prettier/2.4.1
 
 packages:
-
-  /@anijs/prettier/1.0.2:
-    resolution: {integrity: sha512-Dvp9IAh/yKUxGdA0LS8U0e7d3PDgmEsMdWuWYHiejeMQ4e+6lMPg99flXK7njEpKn3x7WpmBL584a0t5R7uZ+g==}
-    dev: true
 
   /ansi-colors/4.1.1:
     resolution: {integrity: sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=, tarball: ansi-colors/download/ansi-colors-4.1.1.tgz}
@@ -1306,12 +1302,11 @@ packages:
     name: yallist
     version: 4.0.0
 
-  registry.nlark.com/yaml/1.10.2:
-    resolution: {integrity: sha1-IwHF/78StGfejaIzOkWeKeeSDks=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/yaml/download/yaml-1.10.2.tgz}
-    name: yaml
-    version: 1.10.2
-    engines: {node: '>= 6'}
-    dev: false
+  registry.npmmirror.com/@anijs/prettier/1.0.3:
+    resolution: {integrity: sha512-G3Y++IaAj1c3oKpOaiWVsBSWNtDF4hBZr91VHu4RpyFR5bfIERpzDHwepuWmw1QayUJsXTDAhVNc/qdEjzNFoA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@anijs/prettier/download/@anijs/prettier-1.0.3.tgz?cache=0&sync_timestamp=1636812531760&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40anijs%2Fprettier%2Fdownload%2F%40anijs%2Fprettier-1.0.3.tgz}
+    name: '@anijs/prettier'
+    version: 1.0.3
+    dev: true
 
   registry.npmmirror.com/@babel/code-frame/7.16.0:
     resolution: {integrity: sha1-DfyAMJvuyEEeZecGRhxAiwu5tDE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/code-frame/download/@babel/code-frame-7.16.0.tgz}
@@ -2355,5 +2350,12 @@ packages:
     dependencies:
       eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys/3.1.0
       lodash: 4.17.21
-      yaml: registry.nlark.com/yaml/1.10.2
+      yaml: registry.npmmirror.com/yaml/1.10.2
+    dev: false
+
+  registry.npmmirror.com/yaml/1.10.2:
+    resolution: {integrity: sha1-IwHF/78StGfejaIzOkWeKeeSDks=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yaml/download/yaml-1.10.2.tgz}
+    name: yaml
+    version: 1.10.2
+    engines: {node: '>= 6'}
     dev: false
