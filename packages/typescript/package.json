@@ -1,0 +1,31 @@
+{
+  "name": "@anijs/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@anijs/eslint-config-common": "workspace:^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
