@@ -19,7 +19,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@anijs/eslint-config-common": "workspace:^0.1.0",
+    "@anijs/eslint-config-common": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1"
   },
