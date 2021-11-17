@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config@0.2.0...@anijs/eslint-config@0.3.0) (2021-11-17)
+
+
+### Features
+
+* add react eslint to all ([815872f](https://github.com/anijs6/eslint-config/commit/815872ff2ad903bdd901c8ed6852ea4f29cbd525))
+
+
+
+
+
 # 0.2.0 (2021-11-17)
 
 

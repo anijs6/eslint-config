@@ -1,6 +1,6 @@
 {
   "name": "@anijs/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "all eslint configurations included",
   "main": "index.js",
   "publishConfig": {
@@ -24,8 +24,8 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@anijs/eslint-config-vue": "^1.5.0",
-    "@anijs/eslint-config-react": "^0.1.0"
+    "@anijs/eslint-config-react": "^0.1.0",
+    "@anijs/eslint-config-vue": "^1.5.0"
   },
   "pnpm": {
     "overrides": {
