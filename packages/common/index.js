@@ -33,7 +33,7 @@ module.exports = {
       }
     },
     {
-      files: ['*.json', '*.json5'],
+      files: ['**/*.json', '**/*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
         quotes: ['error', 'double'],
@@ -46,7 +46,7 @@ module.exports = {
       parser: 'yaml-eslint-parser'
     },
     {
-      files: ['package.json'],
+      files: ['**/package.json'],
       parser: 'jsonc-eslint-parser',
       rules: {
         'jsonc/sort-keys': [

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@anijs/vue']
+  extends: ['@anijs/vue', '@anijs/react']
 }
