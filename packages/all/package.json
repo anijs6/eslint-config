@@ -24,6 +24,11 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@anijs/eslint-config-vue": "workspace:^1.4.0"
+    "@anijs/eslint-config-vue": "^1.4.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@anijs/eslint-config-vue": "workspace:*"
+    }
   }
 }
