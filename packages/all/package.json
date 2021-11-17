@@ -1,7 +1,7 @@
 {
-  "name": "@anijs/eslint-config-vue",
-  "version": "1.4.0",
-  "description": "",
+  "name": "@anijs/eslint-config",
+  "version": "1.0.0",
+  "description": "all eslint configurations included",
   "main": "index.js",
   "publishConfig": {
     "access": "public",
@@ -13,10 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@anijs/eslint-config-typescript": "^1.1.0",
-    "eslint-plugin-vue": "^8.0.3"
-  },
   "devDependencies": {
     "eslint": "^8.2.0",
     "prettier": "^2.4.1",
@@ -25,11 +21,9 @@
   "peerDependencies": {
     "eslint": "^8.2.0",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "typescript": "*"
   },
-  "pnpm": {
-    "overrides": {
-      "@anijs/eslint-config-typescript": "workspace:*"
-    }
+  "dependencies": {
+    "@anijs/eslint-config-vue": "workspace:^1.4.0"
   }
 }
