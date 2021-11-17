@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-vue@1.4.0...@anijs/eslint-config-vue@1.5.0) (2021-11-17)
+
+
+### Features
+
+* merge vue eslint ([46cca10](https://github.com/anijs6/eslint-config/commit/46cca10ae70ff6c0f21cb6b4675f490a6066868d))
+
+
+
+
+
 # 1.4.0 (2021-11-15)
 
 
