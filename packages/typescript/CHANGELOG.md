@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-typescript@1.2.0...@anijs/eslint-config-typescript@1.3.0) (2021-11-18)
+
+
+### Features
+
+* modify common eslint config module content ([f991c02](https://github.com/anijs6/eslint-config/commit/f991c02585674a4f576b154bddb58f7b3d2587cd))
+
+
+
+
+
 # 1.2.0 (2021-11-17)
 
 

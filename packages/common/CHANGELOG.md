@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-common@0.2.0...@anijs/eslint-config-common@0.3.0) (2021-11-18)
+
+
+### Features
+
+* modify common eslint config module content ([f991c02](https://github.com/anijs6/eslint-config/commit/f991c02585674a4f576b154bddb58f7b3d2587cd))
+* modify common eslint config module content ([1c2fddf](https://github.com/anijs6/eslint-config/commit/1c2fddfaab2aebe4aa85cffbd20a5042e6e30221))
+
+
+
+
+
 # 0.2.0 (2021-11-17)
 
 

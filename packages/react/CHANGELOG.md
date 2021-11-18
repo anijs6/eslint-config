@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-react@0.2.0...@anijs/eslint-config-react@0.2.1) (2021-11-18)
+
+**Note:** Version bump only for package @anijs/eslint-config-react
+
+
+
+
+
 # [0.2.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-react@0.1.0...@anijs/eslint-config-react@0.2.0) (2021-11-17)
 
 
