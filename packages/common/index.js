@@ -29,7 +29,10 @@ module.exports = {
     {
       files: ['**/*.js'],
       rules: {
-        'unicorn/prefer-module': 'off'
+        'unicorn/prefer-module': 'off',
+        'jsdoc/no-types': 'off',
+        'jsdoc/require-param-type': 'error',
+        'jsdoc/require-returns-type': 'error'
       }
     },
     {
@@ -89,6 +92,31 @@ module.exports = {
     }
   ],
   rules: {
+    /** 开头是pre的变量，可以被重新赋值 */
+    'no-param-reassign': [
+      'error',
+      {
+        props: true,
+        ignorePropertyModificationsForRegex: ['^pre']
+      }
+    ],
+    /** 允许使用array.reduce */
+    'unicorn/no-array-reduce': 'off',
+    /** 允许直接使用__dirname */
+    'unicorn/prefer-module': 'off',
+    /** 关闭通过协议使用包：require('node:path') */
+    'unicorn/prefer-node-protocol': 'off',
+    /** 允许function和class先使用再申明 */
+    'no-use-before-define': [
+      'error',
+      { functions: false, classes: false }
+    ],
+    /**
+     * ts文件不需要定义jsdoc类型
+     */
+    'jsdoc/no-types': ['error', { contexts: ['any'] }],
+    'jsdoc/require-param-type': 'off',
+    'jsdoc/require-returns-type': 'off',
     'prettier/prettier': 'error'
   }
 }
