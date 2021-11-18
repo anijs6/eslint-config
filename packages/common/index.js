@@ -117,6 +117,7 @@ module.exports = {
     'jsdoc/no-types': ['error', { contexts: ['any'] }],
     'jsdoc/require-param-type': 'off',
     'jsdoc/require-returns-type': 'off',
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'unicorn/prevent-abbreviations': 'off'
   }
 }

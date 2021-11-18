@@ -7,5 +7,13 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier'
   ],
-  overrides: commonConfig.overrides
+  overrides: [
+    ...commonConfig.overrides,
+    {
+      files: ['**/*.ts'],
+      rules: {
+        'no-use-before-define': 'off'
+      }
+    }
+  ]
 }
