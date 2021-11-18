@@ -18,6 +18,21 @@ importers:
       lerna: registry.nlark.com/lerna/3.22.1
       prettier: registry.nlark.com/prettier/2.4.1
 
+  packages/all:
+    specifiers:
+      '@anijs/eslint-config-react': ^0.1.0
+      '@anijs/eslint-config-vue': ^1.5.0
+      eslint: ^8.2.0
+      prettier: ^2.4.1
+      typescript: ^4.4.4
+    dependencies:
+      '@anijs/eslint-config-react': link:../react
+      '@anijs/eslint-config-vue': link:../vue
+    devDependencies:
+      eslint: 8.2.0
+      prettier: 2.4.1
+      typescript: 4.4.4
+
   packages/common:
     specifiers:
       eslint: ^8.2.0
@@ -48,6 +63,9 @@ importers:
     devDependencies:
       eslint: 8.2.0
       prettier: registry.nlark.com/prettier/2.4.1
+
+  packages/react:
+    specifiers: {}
 
   packages/typescript:
     specifiers:
