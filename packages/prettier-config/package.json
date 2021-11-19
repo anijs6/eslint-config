@@ -1,0 +1,16 @@
+{
+  "name": "@anijs/prettier",
+  "version": "1.0.3",
+  "description": "",
+  "main": ".prettierrc.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
