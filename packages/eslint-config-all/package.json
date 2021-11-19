@@ -1,6 +1,6 @@
 {
   "name": "@anijs/eslint-config",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "all eslint configurations included",
   "keywords": [],
   "license": "ISC",
@@ -19,8 +19,8 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@anijs/eslint-config-react": "^0.2.1",
-    "@anijs/eslint-config-vue": "^1.6.1"
+    "@anijs/eslint-config-react": "^0.3.0",
+    "@anijs/eslint-config-vue": "^1.7.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
