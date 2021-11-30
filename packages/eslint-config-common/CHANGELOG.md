@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-common@0.4.0...@anijs/eslint-config-common@0.5.0) (2021-11-30)
+
+
+### Features
+
+* update eslint config ([260018a](https://github.com/anijs6/eslint-config/commit/260018ad8bc784b4b6df7c505266a9a36b0b4d01))
+
+
+
+
+
 # [0.4.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-common@0.3.0...@anijs/eslint-config-common@0.4.0) (2021-11-19)
 
 
