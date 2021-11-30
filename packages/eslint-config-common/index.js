@@ -117,7 +117,26 @@ module.exports = {
     'jsdoc/no-types': ['error', { contexts: ['any'] }],
     'jsdoc/require-param-type': 'off',
     'jsdoc/require-returns-type': 'off',
+    'unicorn/prevent-abbreviations': 'off',
     'prettier/prettier': 'error',
-    'unicorn/prevent-abbreviations': 'off'
+    'consistent-return': 'off',
+    'unicorn/no-for-loop': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never',
+        tsx: 'never',
+        js: 'never',
+        'd.ts': 'never'
+      }
+    ],
+    'unicorn/filename-case': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-console': 'off',
+    'no-new': 'off',
+    'import/no-dynamic-require': 'off',
+    'global-require': 'off',
+    'no-restricted-exports': 'off'
   }
 }

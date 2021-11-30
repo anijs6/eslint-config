@@ -15,5 +15,9 @@ module.exports = {
         'no-use-before-define': 'off'
       }
     }
-  ]
+  ],
+  rules: {
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-explicit-any': 'off'
+  }
 }
