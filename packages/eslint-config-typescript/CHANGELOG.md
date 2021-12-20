@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-typescript@1.5.1...@anijs/eslint-config-typescript@1.6.0) (2021-12-20)
+
+
+### Features
+
+* :seedling: :tada: add common eslint config :tada: ([54b208b](https://github.com/anijs6/eslint-config/commit/54b208b34c0a1bd3a1a3042a4b61059f1f4e0a5d))
+
+
+
+
+
 ## [1.5.1](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-typescript@1.5.0...@anijs/eslint-config-typescript@1.5.1) (2021-12-20)
 
 **Note:** Version bump only for package @anijs/eslint-config-typescript

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-vue@1.7.2...@anijs/eslint-config-vue@1.8.0) (2021-12-20)
+
+
+### Features
+
+* :seedling: :tada: add common eslint config :tada: ([54b208b](https://github.com/anijs6/eslint-config/commit/54b208b34c0a1bd3a1a3042a4b61059f1f4e0a5d))
+
+
+
+
+
 ## [1.7.2](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-vue@1.7.1...@anijs/eslint-config-vue@1.7.2) (2021-12-20)
 
 **Note:** Version bump only for package @anijs/eslint-config-vue
