@@ -21,7 +21,7 @@ importers:
   packages/eslint-config-all:
     specifiers:
       '@anijs/eslint-config-react': ^0.3.0
-      '@anijs/eslint-config-vue': ^1.7.0
+      '@anijs/eslint-config-vue': ^1.7.1
       eslint: ^8.2.0
       prettier: ^2.4.1
       typescript: ^4.4.4
@@ -69,7 +69,7 @@ importers:
 
   packages/eslint-config-typescript:
     specifiers:
-      '@anijs/eslint-config-common': ^0.4.0
+      '@anijs/eslint-config-common': ^0.5.0
       '@typescript-eslint/eslint-plugin': ^5.3.1
       '@typescript-eslint/parser': ^5.3.1
       eslint: ^8.2.0
@@ -86,7 +86,7 @@ importers:
 
   packages/eslint-config-vue:
     specifiers:
-      '@anijs/eslint-config-typescript': ^1.4.0
+      '@anijs/eslint-config-typescript': ^1.5.0
       eslint: ^8.2.0
       eslint-plugin-vue: ^8.0.3
       prettier: ^2.4.1

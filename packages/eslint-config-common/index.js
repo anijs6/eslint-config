@@ -16,14 +16,12 @@ module.exports = {
   settings: {
     'html/report-bad-indent': 'error',
     'html/indent': '+2',
-    'html/html-extensions': [
-      '.html',
-      '.ejs',
-      '.html',
-      '.hbs',
-      '.handlebars',
-      '.pug'
-    ]
+    'html/html-extensions': ['.html', '.ejs', '.html', '.hbs', '.handlebars', '.pug'],
+    'import/resolver': {
+      node: {
+        extensions: ['.tsx', '.ts', '.js', '.json']
+      }
+    }
   },
   overrides: [
     {
@@ -83,11 +81,18 @@ module.exports = {
             ]
           },
           {
-            pathPattern:
-              '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
+            pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
             order: { type: 'asc' }
           }
         ]
+      }
+    },
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'jsdoc/require-jsdoc': 'off',
+        'jsdoc/require-returns-type': 'off',
+        'jsdoc/require-returns': 'off'
       }
     }
   ],
@@ -107,10 +112,7 @@ module.exports = {
     /** 关闭通过协议使用包：require('node:path') */
     'unicorn/prefer-node-protocol': 'off',
     /** 允许function和class先使用再申明 */
-    'no-use-before-define': [
-      'error',
-      { functions: false, classes: false }
-    ],
+    'no-use-before-define': ['error', { functions: false, classes: false }],
     /**
      * ts文件不需要定义jsdoc类型
      */
@@ -137,6 +139,10 @@ module.exports = {
     'no-new': 'off',
     'import/no-dynamic-require': 'off',
     'global-require': 'off',
-    'no-restricted-exports': 'off'
+    'no-restricted-exports': 'off',
+    'yml/quotes': ['error', { prefer: 'double' }],
+    'unicorn/no-process-exit': 'off',
+    'import/prefer-default-export': 'off',
+    'unicorn/prefer-object-from-entries': 'off'
   }
 }
