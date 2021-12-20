@@ -32,5 +32,6 @@
       "@anijs/eslint-config-vue": "workspace:*",
       "@anijs/eslint-config-react": "workspace:*"
     }
-  }
+  },
+  "gitHead": "f723bbdeb1c5f16feb633a3e1d854b26f5ad678a"
 }

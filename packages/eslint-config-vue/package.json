@@ -31,5 +31,6 @@
     "overrides": {
       "@anijs/eslint-config-typescript": "workspace:*"
     }
-  }
+  },
+  "gitHead": "f723bbdeb1c5f16feb633a3e1d854b26f5ad678a"
 }
