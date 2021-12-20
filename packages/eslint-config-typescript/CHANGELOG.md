@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-typescript@1.5.0...@anijs/eslint-config-typescript@1.5.1) (2021-12-20)
+
+**Note:** Version bump only for package @anijs/eslint-config-typescript
+
+
+
+
+
 # [1.5.0](https://github.com/anijs6/eslint-config/compare/@anijs/eslint-config-typescript@1.4.0...@anijs/eslint-config-typescript@1.5.0) (2021-11-30)
 
 
